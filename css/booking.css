@@ -32,12 +32,9 @@
 
 /* Safari Fixed */
 
-.safari-fixed {
+input::-webkit-datetime-edit {
     display: block;
-    appearance: textfield;
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
-    min-height: 1.2em;
+    padding: 0;
 }
 
 
