@@ -30,7 +30,7 @@
     transition: border-color .4s;
     
     /* Safari input problems */
-
+    -webkit-appearance: none;
     -webkit-padding: 1.2rem 1.5rem;
     -webkit-margin-bottom: 1.2rem;
     -webkit-outline: none;
