@@ -33,28 +33,11 @@
 /* Safari Fixed */
 
 .safari-fixed {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    color: var(--gray-dark);
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
 }
 
-.safari-fixed:disabled {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    color: var(--gray-dark);
-}
-
-.safari-fixed:active {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    color: var(--gray-dark);
-}
 
 .booking-form__input:focus {
     border-color: var(--accent2);
