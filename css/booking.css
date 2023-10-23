@@ -34,12 +34,24 @@
 
 .safari-fixed {
     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     background-color: white;
     color: var(--gray-dark);
 }
 
 .safari-fixed:disabled {
     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    color: var(--gray-dark);
+}
+
+.safari-fixed:active {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     background-color: white;
     color: var(--gray-dark);
 }
