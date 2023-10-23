@@ -1,0 +1,126 @@
+/* Header */
+
+.header {
+    min-height: 70rem;
+    background: center / cover no-repeat url(../images/cafe-banner.jpg) rgba(0, 0, 0, .4);
+    background-blend-mode: overlay;
+}
+
+.header__banner {
+    color: white;
+    padding-top: 20rem;
+}
+
+.header__banner-heading {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 6rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 1200px) {
+    .header__banner-heading {
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 576px) {
+    .header__banner-heading {
+        font-size: 4rem;
+        border-bottom: none;
+    }
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 10;
+    top: 3rem;
+}
+
+.navbar__logo {
+    margin-right: auto;
+    font-size: 3rem;
+}
+
+.navbar__logo-text {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar__logo-icon {
+    color: var(--accent2);
+}
+
+.navbar__items {
+    display: flex;
+    list-style: none;
+}
+
+.navbar__item {
+    padding: 1rem 1.5rem;
+}
+
+.navbar__link:link,
+.navbar__link:visited {
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+.navbar__link:hover {
+    color: var(--accent2);
+}
+
+.navbar__toggle {
+    border: none;
+    background-color: transparent;
+    color: var(--accent2);
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* Mobile navigation */
+
+@media(max-width: 576px) {
+    .navbar__items {
+        display: none;
+    }
+
+    .navbar__toggle--open {
+        display: block;
+    }
+
+    .navbar--opened .navbar__toggle--open {
+        display: none;
+    }
+
+    .navbar--opened .navbar__toggle--close {
+        display: block;
+    }
+
+    .navbar--opened .navbar__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-right: auto;
+    }
+
+    .navbar--opened .navbar__link {
+        font-size: 3rem;
+    }
+
+    .navbar--opened.navbar {
+        align-items: flex-start;
+   }
+}

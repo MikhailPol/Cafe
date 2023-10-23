@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafe - the best cafe in city">
+    <meta name="keywords" content="burger, cafe, pizza">
+    <meta name="author" content="Mikhail Polyakov">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js" defer></script>
+    <title>Cafe</title>
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="navbar__logo navbar__link">
+                    <i class="fa-solid fa-pizza-slice navbar__logo-icon"></i>
+                    <span class="navbar__logo-text">Cafe</span>
+                </a>
+                <ul class="navbar__items">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__link">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#menu" class="navbar__link">Menu</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#booking" class="navbar__link">Booking</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#team" class="navbar__link">Our team</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#blog" class="navbar__link">Blog</a>
+                    </li>
+                </ul>
+                <button class="navbar__item navbar__toggle navbar__toggle--open">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </button>
+                <button class="navbar__item navbar__toggle navbar__toggle--close">
+                    <i class="fa-sharp fa-solid fa-times"></i>
+                </button>
+            </nav>
+            <div class="header__banner">
+                <h1 class="header__banner-heading">Premium Burger & Pizza Cafe</h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#booking" class="btn btn--big">Book now</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section about" id="about">
+            <h2 class="section__title">Start ordering now</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum voluptate odit repellat!</p>
+            <div class="flex">
+                <div class="flex-item about-item">
+                    <i class="fa-solid fa-burger about-item__icon"></i>
+                    <h3 class="about-item__title">Quality food</h3>
+                    <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem enim vero.</p>
+                </div>
+                <div class="flex-item about-item">
+                    <i class="fa-solid fa-truck about-item__icon"></i>
+                    <h3 class="about-item__title">Quick Deliviry</h3>
+                    <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem enim vero.</p>
+                </div>
+                <div class="flex-item about-item">
+                    <i class="fa-solid fa-qrcode about-item__icon"></i>
+                    <h3 class="about-item__title">Easy Order</h3>
+                    <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem enim vero.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section menu" id="menu">
+            <h2 class="section__title">Popular dishes</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus qui corrupti odio.</p>
+            <div class="flex">
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img src="images/food-01.jpg" alt="pizza italiano" class="menu-item__img full-size">
+                        <h3 class="menu-item__title">Pizza Italiano</h3>
+                        <div class="menu-item__price">26$</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img src="images/food-02.jpg" alt="muffins" class="menu-item__img full-size">
+                        <h3 class="menu-item__title">Muffins</h3>
+                        <div class="menu-item__price">32$</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img src="images/food-03.jpg" alt="burger" class="menu-item__img full-size">
+                        <h3 class="menu-item__title">Burger</h3>
+                        <div class="menu-item__price">28$</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img src="images/food-04.jpg" alt="pizza milano" class="menu-item__img full-size">
+                        <h3 class="menu-item__title">Pizza Milano</h3>
+                        <div class="menu-item__price">34$</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img src="images/food-05.jpg" alt="pizza victoria" class="menu-item__img full-size">
+                        <h3 class="menu-item__title">Pizza Victoria</h3>
+                        <div class="menu-item__price">24$</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img src="images/food-06.jpg" alt="lunch" class="menu-item__img full-size">
+                        <h3 class="menu-item__title">Lunch</h3>
+                        <div class="menu-item__price">42$</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section booking" id="booking">
+            <h2 class="section__title">Book table</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quod numquam magni.</p>
+            <div class="flex container">
+                <div class="flex-item">
+                    <div class="booking__img-wrapper full-size">
+                        <img src="images/cafe.jpg" alt="cafe" class="booking__img full-size">
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <form action="#" class="booking-form flex">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" class="booking-form__input" placeholder="Enter your name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" class="booking-form__input" placeholder="Enter your email">
+
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" class="booking-form__input">
+
+                        <label for="time">Time:</label>
+                        <input type="time" id="time" class="booking-form__input">
+
+                        <button class="btn" type="submit">Book</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section team" id="team">
+            <h3 class="section__title">Our team</h3>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fuga rerum provident?</p>
+            <div class="flex container">
+                <div class="flex-item">
+                    <div class="team-item">
+                        <img src="images/team-01.png" alt="cook-1" class="team-item__image full-size">
+                        <div class="team-item__desc">
+                            <h3 class="team-item__name">Mike Stown</h3>
+                            <small>Chief</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="team-item">
+                        <img src="images/team-02.png" alt="cook-2" class="team-item__image full-size">
+                        <div class="team-item__desc">
+                            <h3 class="team-item__name">Sofi Onie</h3>
+                            <small>Chief</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="team-item">
+                        <img src="images/team-03.png" alt="cook-3" class="team-item__image full-size">
+                        <div class="team-item__desc">
+                            <h3 class="team-item__name">Pete Brown</h3>
+                            <small>Chief</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section blog" id="blog">
+            <h2 class="section__title">Last news</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id aut architecto.</p>
+            <div class="flex container">
+                <div class="flex-item">
+                    <div class="blog-item">
+                        <img src="images/food-07.jpg" alt="news" class="blog-item__img full-size">
+                        <div class="blog-item__text">
+                            <time class="blog-item__date" datetime="2023-02-15">February 15, 2023</time>
+                            <h3 class="blog-item__heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-item__intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, dicta temporibus.</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="blog-item">
+                        <img src="images/food-08.jpg" alt="news" class="blog-item__img full-size">
+                        <div class="blog-item__text">
+                            <time class="blog-item__date" datetime="2023-02-14">February 14, 2023</time>
+                            <h3 class="blog-item__heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-item__intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod!</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="blog-item">
+                        <img src="images/food-09.jpg" alt="news" class="blog-item__img full-size">
+                        <div class="blog-item__text">
+                            <time class="blog-item__date" datetime="2023-02-12">February 12, 2023</time>
+                            <h3 class="blog-item__heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-item__intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam adipisci cupiditate commodi.</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top flex container">
+            <div class="flex-item footer-item">
+                <h3 class="footer-item__heading">
+                    <i class="fa-solid fa-pizza-slice"></i> Cafe
+                </h3>
+                <p class="footer-item__desc"><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</i></p>
+            </div>
+            <div class="flex-item footer-item">
+                <h3 class="footer-item__heading">
+                    <i class="fa-solid fa-location-dot"></i> Addres
+                </h3>
+                <address class="footer-item__desc">
+                    Road Avenu, 123, Philadelfia <br> United States
+                </address>
+            </div>
+            <div class="flex-item footer-item">
+                <h3 class="footer-item__heading">
+                    <i class="fa-solid fa-phone-volume"> Phone</i>
+                </h3>
+                <address class="footer-item__desc">
+                    +1 123-45-78 <br>
+                    +1 123-45-80
+                </address>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <small>&copy; Cafe, All rights reserved. 2023</small>
+        </div>
+    </footer>
+</body>
+</html>

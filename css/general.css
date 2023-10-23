@@ -1,0 +1,111 @@
+/* Нормализация стилей */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+:root {
+    --accent1: #3C2A21;
+    --accent2: #D1512D;
+    --accent3: #F5C7A9;
+    --accent4: #F5E8E4;
+    --gray-light: #eee;
+    --gray-dark: #606470;
+    font-size: 62.5%; /* 1rem = 16 * 0.625 = 10px; */
+    scroll-behavior: smooth;
+}
+
+@media(max-width: 768px) {
+    :root {
+        font-size: 50%; /* 1rem = 16 * 0.5 = 8px */
+    }
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+/* Utilites */
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media(max-width: 1200px) {
+    .container {
+        width: 96vw;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    padding: 2rem;
+}
+
+.full-size {
+    width: 100%;
+    height: 100%;
+}
+
+/* Button */
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    margin: 2rem 0 4rem 0;
+    padding: 1rem 2rem;
+    background-color: var(--accent2);
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 1px solid var(--accent2);
+    border-radius: 6px;
+    transition: all .4s;
+}
+
+.btn:hover {
+    background-color: var(--accent3);
+    color: var(--accent1);
+    cursor: pointer;
+}
+
+.btn--big,
+.btn--big:link,
+.btn--big:visited {
+    margin-top: 4rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 2.2rem;
+}
+
+
+/* Section */
+
+.section {
+    padding: 5rem 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section__description {
+    color: var(--gray-dark);
+    margin-bottom: 3rem;
+}

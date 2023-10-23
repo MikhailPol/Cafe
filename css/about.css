@@ -1,0 +1,27 @@
+/* About */
+
+.about-item {
+    width: 33.3%;
+}
+
+.about-item__icon {
+    font-size: 5.5rem;
+    color: var(--accent2);
+    margin-bottom: 2.5rem;
+}
+
+.about-item__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-item__desc {
+    color: var(--gray-dark);
+}
+
+@media(max-width: 576px) {
+    .about-item {
+        width: 100%;
+    }
+}
