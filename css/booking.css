@@ -28,14 +28,12 @@
     outline: none;
     border: 1px solid var(--accent1);
     transition: border-color .4s;
-    
-    /* Safari input problems */
-    -webkit-appearance: none;
-    -webkit-padding: 1.2rem 1.5rem;
-    -webkit-margin-bottom: 1.2rem;
-    -webkit-outline: none;
-    -webkit-border: 1px solid var(--accent1);
-    -webkit-transition: border-color .4s;
+}
+
+/* Safari Fixed */
+
+.safari-fixed {
+    min-width: 95%;
 }
 
 .booking-form__input:focus {
