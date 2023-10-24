@@ -17,10 +17,7 @@
 }
 
 .booking-form {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     max-width: 40rem;
     margin: 0 auto;
 }
@@ -30,18 +27,11 @@
     margin-bottom: 1.2rem;
     outline: none;
     border: 1px solid var(--accent1);
-    -webkit-transition: border-color .4s;
-    -o-transition: border-color .4s;
     transition: border-color .4s;
 }
 
 /* Safari Fixed */
 
-/* .safari-fixed {
-    appearance: none;
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
-} */
 
 
 .booking-form__input:focus {
