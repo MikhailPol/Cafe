@@ -30,8 +30,9 @@
     transition: border-color .4s;
 }
 
-.flex-item-safari {
-    display:flex;
+.flex-safari {
+    display: flex;
+    flex-wrap: wrap;
     display:-webkit-flex;
     flex: 1 0 0;
     -webkit-flex: 1 0 0;
