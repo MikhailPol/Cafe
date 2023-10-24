@@ -28,9 +28,17 @@
     outline: none;
     border: 1px solid var(--accent1);
     transition: border-color .4s;
+
+    /* Safari Fixed */
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    min-width: 99%;
+    min-height: 99%;
 }
 
-/* Safari Fixed */
+
 
 
 
