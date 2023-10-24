@@ -30,13 +30,11 @@
     transition: border-color .4s;
 }
 
-.safari-fixed {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    min-width: 100%;
-    line-height: 100%;
+.flex-item-safari {
+    display:flex;
+    display:-webkit-flex;
+    flex: 1 0 0;
+    -webkit-flex: 1 0 0;
 }
 
 
