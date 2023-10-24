@@ -22,6 +22,9 @@
 }
 
 .footer-item__desc a {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     color: white;
     text-decoration: none;
     
