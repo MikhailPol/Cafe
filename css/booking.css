@@ -30,9 +30,10 @@
     transition: border-color .4s;
 }
 
-.safari-fixed::-webkit-datetime-edit {
-    display: block;
-    padding: 0;
+.safari-fixed {
+    background-color: white;
+    min-width: 100%;
+    line-height: 100%;
 }
 
 
