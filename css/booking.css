@@ -31,6 +31,9 @@
 }
 
 .safari-fixed {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     background-color: white;
     min-width: 100%;
     line-height: 100%;
