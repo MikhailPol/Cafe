@@ -17,23 +17,24 @@
 }
 
 .booking-form {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     flex-direction: column;
-    max-width: 40rem;
+    /* max-width: 40rem; */
     margin: 0 auto;
 }
 
 .booking-form__input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     padding: 1.2rem 1.5rem;
     margin-bottom: 1.2rem;
     outline: none;
     border: 1px solid var(--accent1);
     transition: border-color .4s;
 }
-
-
-
-
-
 
 
 .booking-form__input:focus {
