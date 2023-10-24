@@ -39,6 +39,15 @@
     min-height: 99%;
 }
 
+.booking-form__input::-webkit-textfield-decoration-container {
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.2rem;
+    outline: none;
+    border: 1px solid var(--accent1);
+    transition: border-color .4s;
+
+}
+
 
 
 
