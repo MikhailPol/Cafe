@@ -109,3 +109,15 @@ body {
     color: var(--gray-dark);
     margin-bottom: 3rem;
 }
+
+.go-home {
+    position: fixed;
+    top: 70rem;
+    right: 10rem;
+    font-size: 4rem;
+}
+
+.go-home a {
+    color: var(--accent2);
+    opacity: .5;
+}
