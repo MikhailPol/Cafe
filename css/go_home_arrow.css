@@ -1,0 +1,16 @@
+.go-home {
+    position: fixed;
+    top: 75rem;
+    right: 5rem;
+    font-size: 4rem;
+}
+
+.go-home a {
+    color: var(--accent2);
+    opacity: .5;
+    transition: all 0.4s;
+}
+
+.go-home a:hover {
+    opacity: 1;
+}

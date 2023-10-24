@@ -151,10 +151,10 @@
                         <input type="email" id="email" class="booking-form__input" placeholder="Enter your email">
 
                         <label for="date">Date:</label>
-                        <input type="date" id="date" class="booking-form__input">
+                        <input type="date" value="2020-10-21" id="date" class="booking-form__input">
 
                         <label for="time">Time:</label>
-                        <input type="time" id="time" class="booking-form__input">
+                        <input type="time" value="14:00" id="time" class="booking-form__input">
 
                         <button class="btn" type="submit">Book</button>
                     </form>
@@ -255,8 +255,9 @@
                     <i class="fa-solid fa-phone-volume"> Phone</i>
                 </h3>
                 <address class="footer-item__desc">
-                    +1 123-45-78 <br>
-                    +1 123-45-80
+                    <a href="tel:+11234578">+1 123-45-78</a>
+                    <br>
+                    <a href="tel:+11234580">+1 123-45-80</a>
                 </address>
             </div>
         </div>
@@ -264,5 +265,8 @@
             <small>&copy; Cafe, All rights reserved. 2023</small>
         </div>
     </footer>
+    <div class="go-home">
+        <a href="#home"><i class="fa-solid fa-circle-chevron-up"></i></a>
+    </div>
 </body>
 </html>
